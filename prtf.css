@@ -1,0 +1,266 @@
+* {
+    color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* cause of this padding and border are included in the given height doesn't takes extra height*/
+    font-size: "General Sans";
+}
+
+html,
+body {
+
+    width: 100%;
+    height: 100%;
+    /*Parent ke corresponding hota % */
+}
+
+
+
+#main {
+    width: 100%;
+}
+
+#hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+#nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+#nav {
+    width: 100%;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#heading h1 {
+    margin-left: 30px;
+    line-height: 1;
+    opacity: 0.6;
+    font-size: 9vw;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#heading {
+    margin-top: 100px;
+}
+
+.block {
+    width: fit-content;
+    /* background-color: wheat; */
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.block h5 {
+    text-align: right;
+}
+
+#heading #secondh1 {
+    margin-left: 230px;
+}
+
+.chhotiheading {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 20px;
+    margin-top: 3.5rem;
+}
+
+.chhotiheading h5 {
+    text-align: right;
+    text-transform: uppercase;
+}
+
+#herofooter {
+    margin-top: 2rem;
+    position: absolute;
+    width: 100%;
+    bottom: 0.8rem;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#herofooter a {
+
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#herofooter .circle {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#herofooter #iconset {
+    width: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#second {
+    color: white;
+    padding-top: 200px;
+    /* padding-right: 2vw; */
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.elem {
+    position: relative;
+    width: 85%;
+    padding: 2vw;
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.elem h1 {
+    text-transform: uppercase;
+    font-size: 9vw;
+    opacity: 0.85;
+}
+
+.elemlast {
+    border-bottom: 1px solid gray;
+}
+
+.elem img {
+    
+    opacity: 0;
+    height: 100%;
+    width: 15%;
+    position: absolute;
+    z-index: 999;
+    /* background-color: pink; */
+}
+
+#imgabout img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+#about {
+    display: flex;
+    color: rgb(255, 255, 255);
+    padding-top: 10vw;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: end;
+    text-transform: uppercase;
+    gap: 1.5rem;
+}
+
+#textabout {
+    height: 100%;
+    width: 25%;
+}
+
+#textabout h5 {
+    opacity: 0.6;
+}
+
+#textabout a {
+    line-height: 3rem;
+    padding: 5px 5px;
+    font-size: 0.6rem;
+    border: 1px solid gray;
+    border-radius: 100px;
+    color: white;
+    margin-top: 100px;
+    text-decoration: none;
+}
+
+#git {
+    background-color: black;
+    padding: 2rem 1rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+#footer {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+}
+
+#footerleft {
+    display: flex;
+    gap: 1rem;
+    text-transform: uppercase;
+}
+
+#footerright {
+    display: flex;
+    gap: 1rem;
+    text-transform: uppercase;
+}
+
+#footerright a {
+    text-decoration: none;
+}
+.minicircle {
+    opacity: 0.4;
+    transition: all linear 0s ;
+    z-index: 99999;
+    /* color: wheat; */
+    background-color: #000000;
+    border-radius: 50%;
+    border: 0.1rem solid white;
+    position: absolute;
+    width: 1.5rem;
+    height:1.5rem;
+    font-size: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bounding{
+    width: fit-content;
+    background-color: black;
+    overflow: hidden;
+}
+.bounding h1{
+    transform: translateY(100%);
+}
+.small{
+    background-color: #000000;
+    overflow: hidden;
+}
+.small .boundingsmall{
+    transform: translateY(100%);
+}
+.boundingc{
+    width: fit-content;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+.boundingc .boundingec{
+    transform: translateY(100%);
+}
